@@ -1,0 +1,404 @@
+\documentclass[10pt]{article}
+\usepackage{amsmath}
+\usepackage{color}
+\usepackage[a4paper, top=18mm, text={170mm, 246mm}, includehead, includefoot, hmarginratio=1:1, heightrounded]{geometry}
+
+\def\<{\langle}
+\def\>{\rangle}
+\def\Res{\operatorname{Res}}
+
+\begin{document}
+
+\[
+    I=\frac{\<1357\>}{\<1x3y\>}\int_{PQ}\frac{\< PQ\bar1\bar3\> \<PQ\bar5\bar7\>}{\<PQ1x\>\<PQ3y\>\<PQ45\>\<PQ56\>\<PQ67\>\<PQ78\>},
+\]
+where 
+\[
+    z_x=z_8-\tau_1 z_2,\quad z_y=z_2-\tau_2 z_4.
+\]
+
+\section*{Schubert problem}
+
+Schubert problem: 
+\[
+    \langle lAa\rangle = \langle lBb\rangle = \langle lCc\rangle = \langle lDd\rangle=0,
+\]
+it has two solutions:
+\[
+    l_1 = (\alpha_1,\beta_1,\gamma_1,\delta_1),\quad l_2 = (\alpha_2,\beta_2,\gamma_2,\delta_2),
+\]
+where $(a,b,c,d)$ means that $a$, $b$, $c$, $d$ are on the same line. We can choose any two of them to represent a line. On each solution, the Jacobian is 
+\[
+    J=\frac{1}{\sqrt{((l_1l_3)(l_2l_4)-(l_1l_2)(l_3l_4)-(l_1l_4)(l_2l_3))^2-4(l_1l_2)(l_2l_3)(l_3l_4)(l_4l_1)}}.
+\]
+The solution is
+\[
+    \alpha_{1} \equiv(a A) \cap\left(B b \gamma_{1}\right) \equiv z_{a}+z_{A} \frac{\langle a B b(c C) \cap(D d A)\rangle+\langle A B b(c C) \cap(D d a)\rangle+\langle a A c C\rangle\langle B b D d\rangle \Delta}{2\langle B b(c C) \cap(D d A) A\rangle},
+\]
+\[
+    \beta_{1} \equiv(B b) \cap\left(a A \delta_{1}\right) \equiv z_{B}+z_{b} \frac{\langle B a A(D d) \cap(c C b)\rangle+\langle b a A(D d) \cap(c C B)\rangle+\langle a A c C\rangle\langle B b D d\rangle \Delta}{2\langle a A(D d) \cap(c C b) b\rangle},
+\]
+\[
+    \gamma_{1} \equiv(c C) \cap\left(D d \alpha_{1}\right) \text { and } \delta_{1} \equiv(D d) \cap\left(c C \beta_{1}\right)
+\]
+and 
+\[
+    \alpha_{2} \equiv(A a) \cap\left(d D \gamma_{2}\right) \equiv z_{A}+z_{a} \frac{\langle A d D(C c) \cap(b B a)\rangle+\langle a d D(C c) \cap(b B A)\rangle+\langle A a C c\rangle\langle b B d D\rangle \Delta}{2\langle d D(C c) \cap(b B a) a\rangle},
+\]
+\[
+    \beta_{2} \equiv(b B) \cap\left(C c \delta_{2}\right) \equiv z_{b}+z_{B} \frac{\langle b C c(d D) \cap(A a B)\rangle+\langle B C c(d D) \cap(A a b)\rangle+\langle A a C c\rangle\langle b B d D\rangle \Delta}{2\langle C c(d D) \bigcap(A a B) B\rangle},
+\]
+\[
+    \gamma_{2} \equiv(C c) \cap\left(b B \alpha_{2}\right) \quad \text { and } \quad \delta_{2} \equiv(d D) \cap\left(A a \beta_{2}\right),
+\]
+where 
+\[
+    \Delta \equiv \sqrt{(1-u-v)^{2}-4 u v}, \quad u \equiv \frac{\<AaBb\>\<CcDd\>}{\<AaCc\>\<BbDd\>}, \quad v \equiv \frac{\<BbCc\>\<AaDd\>}{\<AaCc\>\<BbDd\>}
+\]
+
+In the following calculation, we choose two poles of the integrand of $I$ and let the other poles vanish.
+
+\section{$\<PQ1x\>\<PQ3y\>$}
+
+$(Aa)=(45)$, $(Bb)=(56)$, $(Cc)=(67)$, $(Dd)=(78)$, so solutions are 
+\[
+    (PQ)_1=(57) \quad \text{and} \quad (PQ)_2=(456)\cap (678)
+\]
+and its box integral is 
+\[
+    F_{1x,3y}=\frac{1}{2} \log (\epsilon) \log \left(\frac{\<6781\> \<y456\>}{\<5681\> \<y467\>}\right)+\log (\epsilon)^2+\operatorname{Li}_2(1).
+\]
+Therefore, 
+\[
+\Res_{(PQ)_1}I+\Res_{(PQ)_2}I =\Res_{(PQ)_1}I  = \frac{\< 57\bar1\bar3\> \<57\bar5\bar7\>}{\<571x\>\<573y\>}\frac{1}{\<4567\>\<5678\>}= \frac{\< 57\bar1\bar3\>}{\<571x\>\<573y\>}\frac{\<1357\>}{\<1x3y\>}
+\]
+and 
+\[
+    d\tau_1 d\tau_2 (\Res_{(PQ)_1}I+\Res_{(PQ)_2}I)
+    =d\log \frac{\<1(28)(3y)(57)\>}{\<573y\>}d\log \frac{\<571x\>}{\<3y1x\>}.
+\]
+
+\section{$\<PQ1x\>\<PQ45\>$}
+
+$(Aa)=(3y)$, $(Bb)=(56)$, $(Cc)=(67)$, $(Dd)=(78)$, so solutions are 
+\[(PQ)_1=(3y7)\cap(567)\quad \text{and}\quad (PQ)_2=(3y6)\cap (678),\]
+and its box integral is 
+\[
+    F_{1x,45}=\operatorname{Li}_2(1)+\frac{1}{2} \log (\epsilon) \log \left(\frac{\<4567\> \<6781\> \<563y\> \<783y\>}{\<4578\> \<5681\> \<673y\>^2}\right)+\frac{1}{2} \log \left(\frac{\<4567\> \<783y\>}{\<4578\> \<673y\>}\right) \log \left(\frac{\<6781\> \<563y\>}{\<5681\> \<673y\>}\right)+\frac{\log (\epsilon)^2}{2}.
+\]
+Therefore,
+\begin{align*}
+\Res_{(PQ)_1}I+\Res_{(PQ)_2}I =\Res_{(PQ)_1}I =-\frac{\< (3y7)\cap (567)\,\bar1\bar3\>}{\<7(1x)(3y)(56)\>\<3y57\>}\frac{\<1357\>}{\<1x3y\>},
+\end{align*}
+and 
+\[
+    d\tau_1 d\tau_2 (\Res_{(PQ)_1}I+\Res_{(PQ)_2}I)
+    =d\log \frac{\<3y71\>}{\<3y75\>}d\log \frac{\<1x3y\>}{\<7(1x)(3y)(56)\>}.
+\]
+
+\section{$\<PQ1x\>\<PQ56\>$}
+
+$(Aa)=(3y)$, $(Bb)=(45)$, $(Cc)=(67)$, $(Dd)=(78)$, and solutions are 
+\[(PQ)_1=(3y7)\cap(457)\quad \text{and}\quad (PQ)_2=(\alpha_2 45)\cap (678),\] 
+where
+\[
+    \alpha_2\propto(3y)\cap (678),
+\]
+and its box integral is 
+\[
+    F_{1x,56}=\operatorname{Li}_2\left(1-\frac{\<6745\> \<783y\>}{\<7845\> \<673y\>}\right)+\frac{1}{2} \log \left(\frac{\<6745\> \<783y\>}{\<7845\> \<673y\>}\right) \log \left(\frac{\<5678\> \<6781\> \<3y45\>}{\<5681\> \<7845\> \<673y\>}\epsilon\right).
+\]
+Therefore,
+\begin{align*}
+\Res_{(PQ)_1}I+\Res_{(PQ)_2}I =\Res_{(PQ)_1}I =\frac{\< (3y7)\cap (457)\,\bar1\bar3\>}{\<7(1x)(3y)(45)\>\<3y57\>}\frac{\<1357\>}{\<1x3y\>}
+\end{align*}
+and 
+\[
+    d\tau_1 d\tau_2 (\Res_{(PQ)_1}I+\Res_{(PQ)_2}I)
+    =-d\log \frac{\<3y71\>}{\<3y75\>}d\log \frac{\<1x3y\>}{\<7(1x)(3y)(45)\>}.
+\]
+
+\section{$\<PQ1x\>\<PQ67\>$}
+
+$(Aa)=(3y)$, $(Bb)=(45)$, $(Cc)=(56)$, $(Dd)=(78)$, and solutions are 
+\[(PQ)_1=(456)\cap(\alpha_1 78)\quad \text{and}\quad (PQ)_2=(3y5)\cap (578),\]
+where $\alpha_1\propto(3y)\cap (456)$, and its box integral is 
+\[
+    F_{1x,67}=\operatorname{Li}_2\left(1-\frac{\<5678\> \<453y\>}{\<4578\> \<563y\>}\right)+\frac{1}{2} \log \left(\frac{\<5678\> \<453y\>}{\<4578\> \<563y\>}\right) \log \left(\frac{\<4567\> \<783y\> \<y456\>}{\<4578\> \<563y\> \<y467\>}\epsilon\right).
+\]
+Therefore,
+\begin{align*}
+\Res_{(PQ)_1}I+\Res_{(PQ)_2}I = \Res_{(PQ)_2}I =\frac{\< (3y5)\cap (578)\,\bar1\bar3\>}{\<5(1x)(3y)(78)\>\<3y57\>}\frac{\<1357\>}{\<1x3y\>}
+\end{align*}
+and
+\[
+    d\tau_1 d\tau_2 (\Res_{(PQ)_1}I+\Res_{(PQ)_2}I)
+    =-d\log \frac{\<3y51\>}{\<3y57\>}d\log \frac{\<1x3y\>}{\<5(1x)(3y)(78)\>}.
+\]
+
+\section{$\<PQ1x\>\<PQ78\>$}
+
+$(Aa)=(3y)$, $(Bb)=(45)$, $(Cc)=(56)$, $(Dd)=(67)$, and solutions are 
+\[(PQ)_1=(3y6)\cap(456)\quad \text{and}\quad (PQ)_2=(3y5)\cap (567),\]
+its box integral is 
+\[
+    F_{1x,78}=\operatorname{Li}_2(1)+\frac{\log (\epsilon)^2}{2}+\frac{1}{2} \log (\epsilon) \log \left(\frac{\<5678\> \<453y\> \<673y\> \<y456\>}{\<4578\> \<563y\>^2 \<y467\>}\right)+\frac{1}{2} \log \left(\frac{\<5678\> \<453y\>}{\<4578\> \<563y\>}\right) \log \left(\frac{\<673y\> \<y456\>}{\<563y\> \<y467\>}\right).
+\]
+Therefore,
+\begin{align*}
+\Res_{(PQ)_1}I+\Res_{(PQ)_2}I = \Res_{(PQ)_2}I =-\frac{\< (3y5)\cap (567)\,\bar1\bar3\>}{\<5(1x)(3y)(67)\>\<3y57\>}\frac{\<1357\>}{\<1x3y\>}
+\end{align*}
+and
+\[
+    d\tau_1 d\tau_2 (\Res_{(PQ)_1}I+\Res_{(PQ)_2}I)
+    =d\log \frac{\<3y51\>}{\<3y57\>}d\log \frac{\<1x3y\>}{\<5(1x)(3y)(67)\>}.
+\]
+
+\section{$\<PQ3y\>\<PQ45\>$}
+
+$(Aa)=(1x)$, $(Bb)=(56)$, $(Cc)=(67)$, $(Dd)=(78)$, and solutions are $(PQ)_1=(1x7)\cap(567)$ and $(PQ)_2=(1x6)\cap (678)$, its box integral is
+\[
+    F_{3y,45}=\operatorname{Li}_2(1)+\frac{\log (\epsilon)^2}{2}+\frac{1}{2} \log (\epsilon) \log \left(\frac{\<4567\> \<6781\> \<561x\> \<781x\>}{\<4578\> \<5681\> \<671x\>^2}\right)+\frac{1}{2} \log \left(\frac{\<4567\> \<781x\>}{\<4578\> \<671x\>}\right) \log \left(\frac{\<6781\> \<561x\>}{\<5681\> \<671x\>}\right).
+\]
+Therefore,
+\begin{align*}
+\Res_{(PQ)_1}I+\Res_{(PQ)_2}I = \Res_{(PQ)_1}I =\frac{\< (1x7)\cap (567)\,\bar1\bar3\>}{\<7(1x)(3y)(56)\>\<1x57\>}\frac{\<1357\>}{\<1x3y\>}
+\end{align*}
+and
+\[
+    d\tau_1 d\tau_2 (\Res_{(PQ)_1}I+\Res_{(PQ)_2}I)
+    =d\log \frac{\<3y75\>}{\<1(28)(3y)(57)\>}d\log \frac{\<1x57\>}{\<7(1x)(3y)(56)\>}-d\log \frac{\<3y71\>}{\<1(28)(3y)(57)\>}d\log \frac{\<1x3y\>}{\<7(1x)(3y)(56)\>}.
+\]
+
+\section{$\<PQ3y\>\<PQ56\>$}
+
+$(Aa)=(1x)$, $(Bb)=(45)$, $(Cc)=(67)$, $(Dd)=(78)$, and 
+solutions are $(PQ)_1=(1x7)\cap(457)$ and $(PQ)_2=(\alpha_2 45)\cap (678)$, where
+\(\alpha_2\propto(1x)\cap (678)\), and its box integral is 
+\[
+    F_{3y,56}=\operatorname{Li}_2\left(1-\frac{\<6745\> \<781x\>}{\<7845\> \<671x\>}\right)+\frac{1}{2} \log \left(\frac{\<6745\> \<781x\>}{\<7845\> \<671x\>}\right) \log \left(\frac{\<5678\> \<6781\> \<1x45\>}{\<5681\> \<7845\> \<671x\>}\epsilon\right)
+\]
+Therefore,
+\begin{align*}
+\Res_{(PQ)_1}I+\Res_{(PQ)_2}I = \Res_{(PQ)_1}I =-\frac{\< (1x7)\cap (457)\,\bar1\bar3\>}{\<7(1x)(3y)(45)\>\<1x57\>}\frac{\<1357\>}{\<1x3y\>}
+\end{align*}
+and
+\[
+    d\tau_1 d\tau_2 (\Res_{(PQ)_1}I+\Res_{(PQ)_2}I)
+    =d\log \frac{\<3y71\>}{\<1(28)(3y)(57)\>}d\log \frac{\<1x3y\>}{\<7(1x)(3y)(45)\>}-d\log \frac{\<3y75\>}{\<1(28)(3y)(57)\>}d\log \frac{\<1x57\>}{\<7(1x)(3y)(45)\>}.
+\]
+
+\section{$\<PQ3y\>\<PQ67\>$}
+
+$(Aa)=(1x)$, $(Bb)=(45)$, $(Cc)=(56)$, $(Dd)=(78)$, and solutions are $(PQ)_1=(456)\cap(\alpha_1 78)$ and $(PQ)_2=(1x5)\cap (578)$, where $\alpha_1\propto(1x)\cap (456)$, and its box integral is 
+\[
+    F_{3y,67}=\operatorname{Li}_2\left(1-\frac{\<5678\> \<451x\>}{\<4578\> \<561x\>}\right)+\frac{1}{2} \log \left(\frac{\<5678\> \<451x\>}{\<4578\> \<561x\>}\right) \log \left(\frac{\<4567\> \<781x\> \<y456\>}{\<4578\> \<561x\> \<y467\>}\epsilon\right).
+\]
+Therefore,
+\begin{align*}
+\Res_{(PQ)_1}I+\Res_{(PQ)_2}I = \Res_{(PQ)_2}I =-\frac{\< (1x5)\cap (578)\,\bar1\bar3\>}{\<5(1x)(3y)(78)\>\<1x57\>}\frac{\<1357\>}{\<1x3y\>}
+\end{align*}
+and
+\[
+    d\tau_1 d\tau_2 (\Res_{(PQ)_1}I+\Res_{(PQ)_2}I)
+    =d\log \frac{\<3y51\>}{\<1(28)(3y)(57)\>}d\log \frac{\<1x3y\>}{\<5(1x)(3y)(78)\>}-d\log \frac{\<3y57\>}{\<1(28)(3y)(57)\>}d\log \frac{\<1x57\>}{\<5(1x)(3y)(78)\>}.
+\]
+
+\section{$\<PQ3y\>\<PQ78\>$}
+
+$(Aa)=(1x)$, $(Bb)=(45)$, $(Cc)=(56)$, $(Dd)=(67)$, and solutions are $(PQ)_1=(1x6)\cap(456)$ and $(PQ)_2=(1x5)\cap (567)$, its box integral is
+\[
+    F_{3y,78}=\operatorname{Li}_2(1)+\frac{1}{2} \log (\epsilon) \log \left(\frac{\<5678\> \<451x\> \<671x\> \<y456\>}{\<4578\> \<561x\>^2 \<y467\>}\right)+\frac{1}{2} \log \left(\frac{\<5678\> \<451x\>}{\<4578\> \<561x\>}\right) \log \left(\frac{\<671x\> \<y456\>}{\<561x\> \<y467\>}\right)+\frac{\log (\epsilon)^2}{2}.
+\]
+Therefore,
+\begin{align*}
+\Res_{(PQ)_1}I+\Res_{(PQ)_2}I = \Res_{(PQ)_2}I =\frac{\< (1x5)\cap (567)\,\bar1\bar3\>}{\<5(1x)(3y)(67)\>\<1x57\>}\frac{\<1357\>}{\<1x3y\>}
+\end{align*}
+and
+\[
+    d\tau_1 d\tau_2 (\Res_{(PQ)_1}I+\Res_{(PQ)_2}I)
+    =d\log \frac{\<3y57\>}{\<1(28)(3y)(57)\>}d\log \frac{\<1x57\>}{\<5(1x)(3y)(67)\>}-d\log \frac{\<3y51\>}{\<1(28)(3y)(57)\>}d\log \frac{\<1x3y\>}{\<5(1x)(3y)(67)\>}.
+\]
+
+\section{$\<PQ45\>\<PQ56\>$}
+
+$(Aa)=(1x)$, $(Bb)=(3y)$, $(Cc)=(67)$, $(Dd)=(78)$, and 
+solutions are $(PQ)_1=(1x7)\cap(3y7)$ and $(PQ)_2=(3y\alpha_2)\cap (678)$, where 
+\[
+    \alpha_2\propto(1x)\cap (678),
+\]
+its box integral is 
+\[
+    F_{45,56}=\operatorname{Li}_2\left(1-\frac{\<781x\> \<673y\>}{\<671x\> \<783y\>}\right)+\frac{1}{2} \log \left(\frac{\<781x\> \<673y\>}{\<671x\> \<783y\>}\right) \log \left(\frac{\<5678\> \<6781\> \<1x3y\>}{\<5681\> \<671x\> \<783y\>}\epsilon\right).
+\]
+Therefore,
+\begin{align*}
+\Res_{(PQ)_1}I+\Res_{(PQ)_2}I = \Res_{(PQ)_1}I =\frac{\< (1x7)\cap(3y7)\,\bar1\bar3\> \< 4567\>}{\<7(1x)(3y)(45)\>\<7(1x)(3y)(56)\>}\frac{\<1357\>}{\<1x3y\>}
+\end{align*}
+and 
+\[
+    d\tau_1 d\tau_2 (\Res_{(PQ)_1}I+\Res_{(PQ)_2}I)
+    =d\log \frac{\<3y71\>}{\<3y75\>}d\log \frac{\<7(1x)(3y)(45)\>}{\<7(1x)(3y)(56)\>}.
+\]
+
+
+\section{$\<PQ45\>\<PQ67\>$}
+
+$(Aa)=(1x)$, $(Bb)=(3y)$, $(Cc)=(56)$, $(Dd)=(78)$, 
+\[
+    u=\frac{\<5678\> \<1x3y\>}{\<1x56\> \<3y78\>},\quad v=\frac{\<1x78\> \<3y56\>}{\<1x56\> \<3y78\>},\quad 
+    \Delta=\sqrt{(1-u-v)^2-4 u v},
+\]
+so solutions are
+\[
+    (PQ)_1=(\alpha_1 56)\cap(\alpha_1 78) \quad\text{and}\quad (PQ)_2=(\alpha_2 3y)\cap (\alpha_2 56),
+\]
+and its box integral is 
+\[
+   F_{45,67}=-\log (\alpha) \log (\beta)+\operatorname{Li}_2(\alpha)+\operatorname{Li}_2(\beta)-\operatorname{Li}_2(1)+\frac{1}{2} \log (u) \log (v),
+\]
+where 
+\[
+    \alpha=\frac{1 - u + v+\Delta}{2},\quad \beta=\frac{1 + u - v+\Delta}{2}.
+\]
+Therefore,
+\begin{align*}
+    \langle (\alpha_156)\cap(\alpha_1 78)\cap(812)\cap(234)\rangle =&-\langle \alpha_1(12)(56)(78)\rangle\<2348\>+\langle \alpha_1(28)(56)(78)\rangle\<1234\>\\
+    {\color{red}=}&\frac{1}{\tau_1}(-\langle \alpha_1(18)(56)(78)\rangle\<2348\>+\tau_1\langle \alpha_1(28)(56)(78)\rangle\<1234\>)\\
+    =&\frac{\<568\alpha_1\>}{\tau_1}(\<178\alpha_1\>\<2348\>-\tau_1\<278\alpha_1\>\<1234\>)\\
+    =&\frac{\<568\alpha_1\>}{\tau_1}(\<178\alpha_1\>\<234x\>+\<x78\alpha_1\>\<1234\>)\\
+    =&\frac{\<568\alpha_1\>}{\tau_1}\langle \alpha_1 (1x)\cap (234) 78\rangle\\
+    =&\frac{\<568\alpha_1\>\<1x78\>\<234\alpha_1\>}{\tau_1},
+\end{align*}
+where the red equation comes from
+\[
+    0=\langle (PQ)_11x\rangle = \langle (PQ)_118\rangle - \tau_1\langle (PQ)_112\rangle\propto
+    \langle \alpha_1 (18)(56)(78)\rangle - \tau_1\langle \alpha_1 (12)(56)(78)\rangle.
+\]
+Then
+\[
+    \Res_{(PQ)_1}I=\frac{1}{\tau_1}\frac{\<568\alpha_1\>\<234\alpha_1\>}{\<567\alpha_1\>\<578\alpha_1\>}\frac{\<1x78\>\<5678\>}{\<1x56\>\<3y78\>\Delta }=-\frac{\<568\alpha_1\>\<234\alpha_1\>}{\<567\alpha_1\>\<578\alpha_1\>}\frac{\<1278\>\<5678\>}{\<1x56\>\<3y78\>\Delta }
+\]
+and 
+\[
+    \Res_{(PQ)_2}I=\frac{\<568\alpha_2\>\<234\alpha_2\>}{\<567\alpha_2\>\<578\alpha_2\>}\frac{\<1278\>\<5678\>}{\<1x56\>\<3y78\>\Delta },
+\]
+so 
+\[
+    \Res_{(PQ)_1}I+\Res_{(PQ)_2}I = -\frac{\<1278\>\<5678\>}{\<1x56\>\<3y78\>\Delta }\left(\frac{\<568\alpha_1\>\<234\alpha_1\>}{\<567\alpha_1\>\<578\alpha_1\>}-\frac{\<568\alpha_2\>\<234\alpha_2\>}{\<567\alpha_2\>\<578\alpha_2\>}\right)\frac{\<1357\>}{\<1x3y\>}.
+\]
+
+Since
+\[
+    \<567\alpha_1\>\<567\alpha_2\>=-\frac{\<1x56\>\<5678\>\<7(1x)(3y)(56)\>}{\<1(3y)(56)(78)\>},\quad 
+    \<578\alpha_1\>\<578\alpha_2\>=\frac{\<1x78\>\<5678\>\<5(1x)(3y)(78)\>}{\<1(3y)(56)(78)\>}
+\]
+
+\[
+    \<568\alpha_1\>\<234\alpha_1\>\<567\alpha_2\>\<578\alpha_2\>-\<567\alpha_1\>\<578\alpha_1\>\<568\alpha_2\>\<234\alpha_2\>=\frac{\Delta \<3y78\>\<5678\>\<1x56\>^2 L}{\<1(3y)(56)(78)\>^2},
+\]
+where 
+\[
+    L=-\<1x (234)\cap (678)\>\<5(1x)(3y)(78)\>-\<1x(234)\cap(578)\>(\<1x(36y)\cap(578)\>+\<3y(17x)\cap(568)\>),
+\]
+then
+\[
+    \Res_{(PQ)_1}I+\Res_{(PQ)_2}I = \frac{\<1357\>}{\<1x3y\>}\frac{\<1278\> L}{\<7(1x)(3y)(56)\>\<1x78\>\<5(1x)(3y)(78)\>}
+\]
+and 
+\[
+    d\tau_1 d\tau_2 (\Res_{(PQ)_1}I+\Res_{(PQ)_2}I)
+    =d\log \frac{\<3y17\>}{\<3y57\>}d\log \frac{\<7(1x)(3y)(56)\>}{\<5(1x)(3y)(78)\>}+d\log \frac{\<3y51\>}{\<3y71\>}d\log \frac{\<1x3y\>}{\<5(1x)(3y)(78)\>}
+\]
+
+\section{$\<PQ45\>\<PQ78\>$}
+
+$(Aa)=(1x)$, $(Bb)=(3y)$, $(Cc)=(56)$, $(Dd)=(67)$, and solutions are $(PQ)_1=(1x6)\cap(3y6)$ and $(PQ)_2=(3y\alpha_2)\cap (567)= \overline{((1x)\cap (567),(3y)\cap (567))}$, its box integral is 
+\[
+    F_{45,78}=\operatorname{Li}_2\left(1-\frac{\<671x\> \<563y\>}{\<561x\> \<673y\>}\right)+\frac{1}{2} \log \left(\frac{\<671x\> \<563y\>}{\<561x\> \<673y\>}\right) \log \left(\frac{\<4567\> \<5678\> \<1x3y\>}{\<4578\> \<561x\> \<673y\>}\epsilon\right).
+\]
+Therefore,
+\begin{align*}
+\Res_{(PQ)_1}I+\Res_{(PQ)_2}I=\Res_{(PQ)_2}I =-\frac{\<(1x)\cap (\bar 6),(3y)\cap (\bar 6),\bar1\cap \bar3\> }{\<5(1x)(3y)(67)\>\<7(1x)(3y)(56)\>}\frac{\<1357\>}{\<1x3y\>}
+\end{align*}
+and 
+\[
+    d\tau_1 d\tau_2 (\Res_{(PQ)_1}I+\Res_{(PQ)_2}I)
+    =d\log \frac{\<3y51\>}{\<3y71\>}d\log \frac{\<1x3y\>}{\<5(1x)(3y)(67)\>}-d\log \frac{\<3y57\>}{\<3y71\>}d\log \frac{\<7(1x)(3y)(56)\>}{\<5(1x)(3y)(67)\>}.
+\]
+
+\section{$\<PQ56\>\<PQ67\>$}
+
+$(Aa)=(1x)$, $(Bb)=(3y)$, $(Cc)=(45)$, $(Dd)=(78)$
+\[
+    u=\frac{\<4578\> \<1x3y\>}{\<1x45\> \<3y78\>},\quad v=\frac{\<1x78\> \<3y45\>}{\<1x45\> \<3y78\>},\quad 
+    \Delta=\sqrt{(1-u-v)^2-4 u v},
+\]
+so solutions are
+\[
+    (PQ)_1=(\alpha_1 45)\cap(\alpha_1 78) \quad\text{and}\quad (PQ)_2=(\alpha_2 3y)\cap (\alpha_2 45),
+\]
+and its box integral is 
+\[
+   F_{56,67}=-\log (\alpha) \log (\beta)+\operatorname{Li}_2(\alpha)+\operatorname{Li}_2(\beta)-\operatorname{Li}_2(1)+\frac{1}{2} \log (u) \log (v),
+\]
+where 
+\[
+    \alpha=\frac{1 - u + v+\Delta}{2},\quad \beta=\frac{1 + u - v+\Delta}{2}.
+\]
+Therefore,
+\[
+    \Res_{(PQ)_1}I=\frac{\<458\alpha_1\>\<234\alpha_1\>}{\<457\alpha_1\>\<578\alpha_1\>}\frac{\<1278\>\<4578\>}{\<1x45\>\<3y78\>\Delta },
+    \quad 
+    \Res_{(PQ)_2}I=-\frac{\<458\alpha_2\>\<234\alpha_2\>}{\<457\alpha_2\>\<578\alpha_2\>}\frac{\<1278\>\<4578\>}{\<1x45\>\<3y78\>\Delta }.
+\]
+and 
+\[
+    d\tau_1 d\tau_2 (\Res_{(PQ)_1}I+\Res_{(PQ)_2}I)
+    =d\log \frac{\<3y17\>}{\<3y57\>}d\log \frac{\<7(1x)(3y)(45)\>}{\<5(1x)(3y)(78)\>}+d\log \frac{\<3y51\>}{\<3y71\>}d\log \frac{\<1x3y\>}{\<5(1x)(3y)(78)\>}.
+\]
+
+\section{$\<PQ56\>\<PQ78\>$}
+
+$(Aa)=(1x)$, $(Bb)=(3y)$, $(Cc)=(45)$, $(Dd)=(67)$, so
+\[
+    u=\frac{\<4567\> \<1x3y\>}{\<1x45\> \<3y67\>},\quad v=\frac{\<1x67\> \<3y45\>}{\<1x45\> \<3y67\>},\quad 
+    \Delta=\sqrt{(1-u-v)^2-4 u v},
+\]
+solutions: $(PQ)_1=(\alpha_1 45)\cap(\alpha_1 67)$ and $(PQ)_2=(\alpha_2 3y)\cap (\alpha_2 45)$, and its box integral is 
+\[
+   F_{56,78}=-\log (\alpha) \log (\beta)+\operatorname{Li}_2(\alpha)+\operatorname{Li}_2(\beta)-\operatorname{Li}_2(1)+\frac{1}{2} \log (u) \log (v),
+\]
+where 
+\[
+    \alpha=\frac{1 - u + v+\Delta}{2},\quad \beta=\frac{1 + u - v+\Delta}{2}.
+\]
+Therefore,
+\begin{align*}
+    \Res_{(PQ)_1}I&=\frac{\<812(45)\cap(67\alpha_1)\>\<234\alpha_1\>}{\<457\alpha_1\>\<578\alpha_1\>}\frac{\<4578\>}{\<1x45\>\<3y67\>\Delta },\\
+    \Res_{(PQ)_2}I&=-\frac{\<812(45)\cap(67\alpha_2)\>\<234\alpha_2\>}{\<457\alpha_2\>\<578\alpha_2\>}\frac{\<4578\>}{\<1x45\>\<3y67\>\Delta }
+\end{align*}
+and 
+\[
+    d\tau_1 d\tau_2 (\Res_{(PQ)_1}I+\Res_{(PQ)_2}I)
+    =d\log \frac{\<3y17\>}{\<3y57\>}d\log \frac{\<7(1x)(3y)(45)\>}{\<5(1x)(3y)(67)\>}+d\log \frac{\<3y51\>}{\<3y71\>}d\log \frac{\<1x3y\>}{\<5(1x)(3y)(67)\>}.
+\]
+
+\section{$\<PQ67\>\<PQ78\>$}
+
+$(Aa)=(1x)$, $(Bb)=(3y)$, $(Cc)=(45)$, $(Dd)=(56)$, solutions are $(PQ)_1=(1x5)\cap(3y5)$ and $(PQ)_2=(3y\alpha_2)\cap (456)$, where $\alpha_2\propto(1x)\cap (456)$,
+and its box integral is 
+\[
+    F_{67,78}=\operatorname{Li}_2\left(1-\frac{\<561x\> \<453y\>}{\<451x\> \<563y\>}\right)+\frac{1}{2} \log \left(\frac{\<561x\> \<453y\>}{\<451x\> \<563y\>}\right) \log \left(\frac{\<4567\> \<y456\> \<1x3y\>}{\<451x\> \<563y\> \<y467\>}\epsilon\right).
+\]
+Therefore,
+\begin{align*}
+\Res_{(PQ)_1}I+\Res_{(PQ)_2}I=\Res_{(PQ)_1}I =\frac{\< (1x5)\cap(3y5)\,\bar1\bar3\> \< 5678\>}{\<(1x5)\cap(3y5)\,67\>\<(1x5)\cap(3y5)\,78\>}\frac{\<1357\>}{\<1x3y\>}
+\end{align*}
+and 
+\[
+    d\tau_1 d\tau_2 (\Res_{(PQ)_1}I+\Res_{(PQ)_2}I)
+    =d\log \frac{\<3y57\>}{\<3y51\>}d\log \frac{\<5(1x)(3y)(78)\>}{\<5(1x)(3y)(67)\>}.
+\]
+
+\end{document}
