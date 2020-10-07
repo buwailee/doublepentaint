@@ -1,5 +1,6 @@
 \documentclass[10pt]{article}
 \usepackage{amsmath}
+\usepackage{latexsym}
 \usepackage{color}
 \usepackage[a4paper, top=18mm, text={170mm, 246mm}, includehead, includefoot, hmarginratio=1:1, heightrounded]{geometry}
 
@@ -48,7 +49,36 @@ I_{i,j,I}=\log\frac{\<ii-1jj-1\>\<ii-1I\>}{\<ii+1jj-1\>\<ii+1I\>}\log\frac{\<\ba
 -Li_2(1-\frac{\<\bar{i}(jj-1)\cap(iI)\>\<ii+1jj+1\>}{\<\bar{i}(jj+1)\cap(iI)\>\<ii+1jj-1\>})-Li_2(1-\frac{\<ii-1jj+1\>\<jj-1I\>}{\<ii-1jj-1\>\<jj+1I\>})+Li_2(1-\frac{\<ii+1jj+1\>\<jj-1I\>}{\<ii+1jj-1\>\<jj+1I\>})
 \end{split}
 \end{equation}
-which matches the old result in the materials by numerial checking.
+which matches the old result in the materials by numerical checking.
+
+
+\paragraph{Proof of the ``star-triangle" integral identity}
+Now let's consider the integral with secondary differential operator:
+\begin{equation}
+\partial_1\cdot\partial_2\int d^4y\frac1{(y-x_1)^2(y-x_2)^2(y-x_3)^2}
+\end{equation}
+As the integral only depends on differences of $(x_1,x_2,x_3)$, leading to a identity held by the differential operators:
+\begin{equation}
+\partial_1+\partial_2+\partial_3=0
+\end{equation} 
+which guarentees the relation:
+\begin{equation}
+\partial_1\cdot\partial_2=\frac12(\Box_3-\Box_1-\Box_2)
+\end{equation}
+where $\Box_i$ is the Laplacian operator, satisfying:
+\begin{equation}
+\Box_i\frac1{x_i^2}=-\delta^{(4)}(x_i)
+\end{equation}
+So finally:
+\begin{equation}
+\begin{split}
+&\partial_1\cdot\partial_2\int d^4y\frac1{(y-x_1)^2(y-x_2)^2(y-x_3)^2}\\
+&=\frac12(\Box_3-\Box_1-\Box_2)\int d^4y\frac1{(y-x_1)^2(y-x_2)^2(y-x_3)^2}\\
+&=\frac12(\frac1{(x_3-x_1)^2(x_3-x_2)^2}-\frac1{(x_2-x_1)^2(x_2-x_3)^2}-\frac1{(x_1-x_2)^2(x_1-x_3)^2})\\
+&=\frac{(x_3-x_2)\cdot(x_3-x_1)}{(x_3-x_1)^2(x_3-x_2)^2(x_3-x_3)^2}
+\end{split}
+\end{equation}
+which was to shown.
 
 \section{8-pt Double pentagon}
 Now we consider the integration:
