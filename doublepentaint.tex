@@ -9,17 +9,54 @@
 
 \begin{document}
 \section{Chiral pentagon}
+Let't firstly try a simpler example, says one loop chiral pentagon integral:
+\begin{equation}
+I_{i,j,I}=\int_{AB}\frac{\<AB\bar{i}\bar{j}\>\<Iij\>}{\<ABi-1i\>\<ABii+1\>\<ABj-1j\>\<ABjj+1\>\<ABI\>}
+\end{equation}
+where $I$ is an arbitrary reference bitwistor. We firstly introduce the edge parameters $\tau_{1,2}$ to the integrand. Using the identity:
+\begin{equation}
+\int_0^{\infty}\frac1{(a+b t)^2}dt=\frac1{ab}
+\end{equation}
+we can rewrite the integral as:
+\begin{equation}
+\int_0^{\infty}d\tau_1\int_0^{\infty}d\tau_2\int_{AB}\frac{\<AB\bar{i}\bar{j}\>\<Iij\>}{\<ABix\>^2\<ABjy\>^2\<ABI\>}
+\end{equation}
+where 
+\[
+    z_x=z_{i-1}-\tau_1 z_{i+1},\quad z_y=z_{j-1}-\tau_2 z_{j+1}.
+\]
+Now we want to do the loop integration first, turning the integral into a 2-d integral. We need the so called ``star-triangle" integration identity:
+\begin{equation}
+\int d^4y\frac{(y-x_1)^{\dot\alpha}_{\alpha}(y-x_2)^{\dot\beta\alpha}}{(y-x_1)^4(y-x_2)^4(y-x_3)^2}=\frac{(x_3-x_1)^{\dot\alpha}_{\alpha}(x_3-x_2)^{\dot\beta\alpha}}{(x_3-x_1)^2(x_3-x_2)^2(x_1-x_2)^2}
+\end{equation}
+Now set $y=l$,$x_1=x_{i-1}+t_1p_i$, $x_2=x_{j-1}+t_2p_j$, $x_3=x_I$ corresponding to the dual coordinate of the bitwistor $I$. Finally, by contracting the numerator with bracket $[i|^{\dot\alpha}$ and $|j]^{\dot\beta}$, we finally arrive at
+\begin{equation}
+\int_{AB}\frac{\<AB\bar{i}\bar{j}\>}{\<ABix\>^2\<ABjy\>^2\<ABI\>}=\frac{\<I\bar{i}\bar{j}\>}{\<Iix\>\<Ijy\>\<ixjy\>}
+\end{equation}
+Note that we already use the relation $p_i|i]=0$ in this derivation. So now we can do the loop integration trivially, and  obtain the result:
+\begin{equation}
+I_{i,j,I}=\int_0^{\infty}d\tau_1\int_0^{\infty}d\tau_2\frac{\<I\bar{i}\bar{j}\>\<Iij\>}{\<Iix\>\<Ijy\>\<ixjy\>}
+\end{equation}
+which can also be changed into $dlog$ form as:
+\begin{equation}
+I_{i,j,I}=\int_0^{\infty}d\log\frac{\<jyI\>}{\<\bar{i}(jy)\cap(iI)\>}d\log\frac{\<ixjy\>}{\<Iix\>}
+\end{equation}
+This integral can be done straightforward:
+\begin{equation}
+\begin{split}
+I_{i,j,I}=\log\frac{\<ii-1jj-1\>\<ii-1I\>}{\<ii+1jj-1\>\<ii+1I\>}\log\frac{\<\bar{i}(jj+1)\cap(iI)\>\<jj-1I\>}{\<\bar{i}(jj-1)\cap(iI)\>\<jj+1I\>}+Li_2(1-\frac{\<\bar{i}(jj-1)\cap(iI)\>\<ii-1jj+1\>}{\<\bar{i}(jj+1)\cap(iI)\>\<ii-1jj-1\>})\\
+-Li_2(1-\frac{\<\bar{i}(jj-1)\cap(iI)\>\<ii+1jj+1\>}{\<\bar{i}(jj+1)\cap(iI)\>\<ii+1jj-1\>})-Li_2(1-\frac{\<ii-1jj+1\>\<jj-1I\>}{\<ii-1jj-1\>\<jj+1I\>})+Li_2(1-\frac{\<ii+1jj+1\>\<jj-1I\>}{\<ii+1jj-1\>\<jj+1I\>})
+\end{split}
+\end{equation}
+which matches the old result in the materials by numerial checking.
 
 \section{8-pt Double pentagon}
 Now we consider the integration:
 \begin{equation}
 I_{1,3,5,7}=\int_{AB}\int_{CD}\frac{\<AB\bar1\bar3\>\<PQ\bar5\bar7\>\<1357\>}{\<AB81\>\<AB12\>\<AB23\>\<AB34\>\<ABPQ\>\<PQ45\>\<PQ56\>\<PQ67\>\<PQ78\>}
 \end{equation}
-We firstly introduce the edge parameters $\tau_{1,2}$ to the integrand. Using the identity:
-\begin{equation}
-\int_0^{\infty}\frac1{(a+b t)^2}dt=\frac1{ab}
-\end{equation}
-we can rewrite the integrand as:
+
+Follow the same logic above, we can rewrite the integrand as:
 \begin{equation}
 \int_0^{\infty}d\tau_1\int_0^{\infty}d\tau_2\frac{\<AB\bar1\bar3\>\<PQ\bar5\bar7\>\<1357\>}{\<AB1x\>^2\<AB3y\>^2\<ABPQ\>\<PQ45\>\<PQ56\>\<PQ67\>\<PQ78\>}
 \end{equation}
