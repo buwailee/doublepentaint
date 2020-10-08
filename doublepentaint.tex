@@ -83,7 +83,7 @@ which was to shown.
 \section{8-pt Double pentagon}
 Now we consider the integration:
 \begin{equation}
-I_{1,3,5,7}=\int_{AB}\int_{CD}\frac{\<AB\bar1\bar3\>\<PQ\bar5\bar7\>\<1357\>}{\<AB81\>\<AB12\>\<AB23\>\<AB34\>\<ABPQ\>\<PQ45\>\<PQ56\>\<PQ67\>\<PQ78\>}
+I_{1,3,5,7}=\int_{AB}\int_{PQ}\frac{\<AB\bar1\bar3\>\<PQ\bar5\bar7\>\<1357\>}{\<AB81\>\<AB12\>\<AB23\>\<AB34\>\<ABPQ\>\<PQ45\>\<PQ56\>\<PQ67\>\<PQ78\>}
 \end{equation}
 
 Follow the same logic above, we can rewrite the integrand as:
@@ -493,6 +493,15 @@ and
     =d\log \frac{\<3y17\>}{\<3y57\>}d\log \frac{\<7(1x)(3y)(45)\>}{\<5(1x)(3y)(67)\>}+d\log \frac{\<3y51\>}{\<3y71\>}d\log \frac{\<1x3y\>}{\<5(1x)(3y)(67)\>}.
 \]
 
-
-
+\section{12-pt Double Pentagon}
+Now we go on considering the integral:
+\begin{equation}
+I_{1,4,7,10}=\int_{AB}\int_{PQ}\frac{\<AB\bar1\bar4\>\<PQ\bar7\bar{10}\>\<147\ 10\>}{\<AB12\ 1\>\<AB12\>\<AB34\>\<AB45\>\<ABPQ\>\<PQ67\>\<PQ78\>\<PQ9\ 10\>\<PQ10\
+ 11\>}
+\end{equation}
+After a parallel derivation:
+\begin{equation}
+I_{1,4,7,10}=\int_0^{\infty}d\tau_1\int_0^{\infty}d\tau_2\frac{\<147\ 10\>}{\<1x4y\>}\int_{PQ}\frac{\< PQ\bar1\bar3\> \<PQ\bar7\bar{10}\>}{\<PQ1x\>\<PQ4y\>\<PQ67\>\<PQ78\>\<PQ9\ 10\>\<PQ10\
+ 11\>}
+\end{equation}
 \end{document}
