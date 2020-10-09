@@ -504,7 +504,62 @@ After a parallel derivation:
 I_{1,4,7,10}=\int_0^{\infty}d\tau_1\int_0^{\infty}d\tau_2\frac{\<147\ 10\>}{\<1x4y\>}\int_{PQ}\frac{\< PQ\bar1\bar4\> \<PQ\bar7\bar{10}\>}{\<PQ1x\>\<PQ4y\>\<PQ67\>\<PQ78\>\<PQ9\ 10\>\<PQ10\
  11\>}
 \end{equation}
-This integral can also be reduced to a basis of $15$ boxes.
+This integral can also be reduced to a basis of $15$ boxes. Result of this reduction is totally similar to the $8$-pt situation.
 
 \paragraph{$\mathbf{1.\<PQ1x\>\<PQ4y\>}$}
+
+\[
+    d\tau_1 d\tau_2 R[1,x,4,y]
+    =d\log \frac{\<1(2\ 12)(4y)(7\ 10)\>}{\<710\ 4y\>}d\log \frac{\<710\ 1x\>}{\<4y1x\>}.
+\]
+\paragraph{$\mathbf{2.\<PQ1x\>\<PQ67\>}$}
+\[
+    d\tau_1 d\tau_2 R[1,x,6,7]
+    =d\log \frac{\<4y10\ 1\>}{\<4y10\ 7\>}d\log \frac{\<1x4y\>}{\<10(1x)(4y)(78)\>}.
+\]
+\paragraph{$\mathbf{3.\<PQ1x\>\<PQ78\>}$}
+\[
+    d\tau_1 d\tau_2 R[1,x,7,8]
+    =-d\log \frac{\<4y10\ 1\>}{\<4y10\ 7\>}d\log \frac{\<1x4y\>}{\<10(1x)(4y)(67)\>}.
+\]
+\paragraph{$\mathbf{4.\<PQ1x\>\<PQ9\ 10\>}$}
+\[
+    d\tau_1 d\tau_2 R[1,x,9,10]
+    =-d\log \frac{\<4y71\>}{\<4y10\ 7\>}d\log \frac{\<1x4y\>}{\<7(1x)(4y)(10\ 11)\>}.
+\]
+\paragraph{$\mathbf{5.\<PQ1x\>\<PQ10\ 11\>}$}
+\[
+    d\tau_1 d\tau_2 R[1,x,10,11]
+    =d\log \frac{\<4y71\>}{\<4y10\ 7\>}d\log \frac{\<1x4y\>}{\<7(1x)(4y)(9\ 10)\>}.
+\]
+\paragraph{$\mathbf{6.\<PQ4y\>\<PQ67\>}$}
+\[
+    d\tau_1 d\tau_2 R[4,y,6,7]
+    =d\log \frac{\<4y7\ 10\>}{\<1(2\ 12)(4y)(7\ 10)\>}d\log \frac{\<1x7\ 10\>}{\<10(1x)(4y)(78)\>}-d\log \frac{\<4y1\ 10\>}{\<1(2\ 12)(4y)(7\ 10)\>}d\log \frac{\<1x4y\>}{\<10(1x)(4y)(78)\>}.
+\]
+\paragraph{$\mathbf{7.\<PQ4y\>\<PQ78\>}$}
+\[
+    d\tau_1 d\tau_2 R[4,y,7,8]
+    =-d\log \frac{\<4y7\ 10\>}{\<1(2\ 12)(4y)(7\ 10)\>}d\log \frac{\<1x7\ 10\>}{\<10(1x)(4y)(67)\>}+d\log \frac{\<4y1\ 10\>}{\<1(2\ 12)(4y)(7\ 10)\>}d\log \frac{\<1x4y\>}{\<10(1x)(4y)(67)\>}.
+\]
+\paragraph{$\mathbf{8.\<PQ4y\>\<PQ9\ 10\>}$}
+\[
+    d\tau_1 d\tau_2 R[4,y,9,10]
+    =-d\log \frac{\<4y7\ 10\>}{\<1(2\ 12)(4y)(7\ 10)\>}d\log \frac{\<1x7\ 10\>}{\<7(1x)(4y)(10\ 11)\>}+d\log \frac{\<4y17\>}{\<1(2\ 12)(4y)(7\ 10)\>}d\log \frac{\<1x4y\>}{\<7(1x)(4y)(10\ 11)\>}.
+\]
+\paragraph{$\mathbf{9.\<PQ4y\>\<PQ10\ 11\>}$}
+\[
+    d\tau_1 d\tau_2 R[4,y,10,11]
+    =d\log \frac{\<4y7\ 10\>}{\<1(2\ 12)(4y)(7\ 10)\>}d\log \frac{\<1x7\ 10\>}{\<7(1x)(4y)(9\ 10)\>}-d\log \frac{\<4y17\>}{\<1(2\ 12)(4y)(7\ 10)\>}d\log \frac{\<1x4y\>}{\<7(1x)(4y)(9\ 10)\>}.
+\]
+\paragraph{$\mathbf{10.\<PQ67\>\<PQ78\>}$}
+\[
+    d\tau_1 d\tau_2 R[6,7,7,8]
+    =d\log \frac{\<4y1\ 10\>}{\<4y7\ 10\>}d\log \frac{\<10(1x)(4y)(67)\>}{\<10(1x)(4y)(78)\>}.
+\]
+\paragraph{$\mathbf{11.\<PQ9\ 10\>\<PQ10\ 11\>}$}
+\[
+    d\tau_1 d\tau_2 R[6,7,7,8]
+    =d\log \frac{\<4y17\>}{\<4y7\ 10\>}d\log \frac{\<7(1x)(4y)(9\ 10)\>}{\<7(1x)(4y)(10\ 11)\>}.
+\]
 \end{document}
