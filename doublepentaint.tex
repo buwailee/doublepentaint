@@ -493,8 +493,38 @@ and
     =-\left(d\log \frac{\<3y17\>}{\<3y57\>}d\log \frac{\<7(1x)(3y)(45)\>}{\<5(1x)(3y)(67)\>}+d\log \frac{\<3y51\>}{\<3y71\>}d\log \frac{\<1x3y\>}{\<5(1x)(3y)(67)\>}\right).
 \]
 
+\subsection{A checking: 6-pt double pentagon}
+To check the correctness of our $8$-pt result, we can consider a degenerated situation, says 6-pt double pentagon:
+\begin{equation}
+I_{1,3,5,7}=\int_{AB}\int_{PQ}\frac{\<AB\bar1\bar3\>\<PQ\bar4\bar6\>\<1346\>}{\<AB61\>\<AB12\>\<AB23\>\<AB34\>\<ABPQ\>\<PQ34\>\<PQ45\>\<PQ56\>\<PQ61\>}
+\end{equation}
+which reads:
+\[
+    I=\int_0^{\infty}d\tau_1\int_0^{\infty}d\tau_2\frac{\<1346\>}{\<1x3y\>}\int_{PQ}\frac{\< PQ\bar1\bar3\> \<PQ\bar4\bar6\>}{\<PQ1x\>\<PQy3\>\<PQ34\>\<PQ45\>\<PQ56\>\<PQ61\>},
+\]
+where $z_x=z_6-\tau_1z_2$, $z_y=z_2-\tau_1z_4$ after a same derivation. This integral can be viewed as a 7-pt ($\{1,x,y,3,4,5,6\}$) hexagon integral, {\it i.e.} degenerated chiral octagon, with one mass corner. So we can directly write down the loop integration result:
+\begin{equation}
+I=\int_0^{\infty}d\tau_1\int_0^{\infty}d\tau_2\frac{\<1346\>}{\tau_1\<1x3y\>}I_8(1,3,4,6)
+\end{equation}
+or written in $dlog$ form:
+\begin{equation}
+I=\int_0^\infty d\log\<613y\>d\log\frac{\<1x3y\>}{\tau_1}I_8(1,3,4,6)
+\end{equation}
+On the other hand, we can reduce all the residues we computed to $6$-pt to get the result. $9$ of them are equal to $\pm d\log\<613y\>d\log\frac{\<1x3y\>}{\tau_1}$ and others vanish. Correspondly those $9$ box functions are just the ones appearing in the $I_8(1,3,4,6)$ results in 1012..... So we finish the checking.
+
+
+
+
+
+
+
+
+
+
+
+
 \section{12-pt Double Pentagon}
-Now we go on considering the integral:
+Now we go on considering the most general integral:
 \begin{equation}
 I_{1,4,7,10}=\int_{AB}\int_{PQ}\frac{\<AB\bar1\bar4\>\<PQ\bar7\overline{10}\>\<147\ 10\>}{\<AB12\ 1\>\<AB12\>\<AB34\>\<AB45\>\<ABPQ\>\<PQ67\>\<PQ78\>\<PQ9\ 10\>\<PQ10\
  11\>}
