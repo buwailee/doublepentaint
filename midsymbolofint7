@@ -1,0 +1,319 @@
+-CiTi[f27, x7, 1 + x7]/4 + CiTi[f27, x7, 1 - y7]/4 + 
+ CiTi[f27, 1 + x7, x7]/4 - CiTi[f27, 1 + x7, y7]/4 + 
+ CiTi[f27, 1 - y7, x7]/4 - CiTi[f27, 1 - y7, y7]/4 - 
+ CiTi[f27, y7, 1 + x7]/4 + CiTi[f27, y7, 1 - y7]/4 + 
+ CiTi[g27, x7, 1 + x7]/4 - CiTi[g27, x7, 1 - y7]/4 - 
+ CiTi[g27, 1 + x7, x7]/4 + CiTi[g27, 1 + x7, y7]/4 - 
+ CiTi[g27, 1 - y7, x7]/4 + CiTi[g27, 1 - y7, y7]/4 + 
+ CiTi[g27, y7, 1 + x7]/4 - CiTi[g27, y7, 1 - y7]/4 - 
+ CiTi[1 - z2, f27, 1 + x7]/4 + CiTi[1 - z2, f27, 1 - y7]/4 + 
+ CiTi[1 - z2, g27, 1 + x7]/4 - CiTi[1 - z2, g27, 1 - y7]/4 - 
+ CiTi[1 - z2, x7, 1 + x7]/4 + CiTi[1 - z2, x7, 1 - y7]/4 - 
+ CiTi[1 - z2, 1 + x7, x7]/4 + CiTi[1 - z2, 1 + x7, 1 + x7]/4 - 
+ (3*CiTi[1 - z2, 1 + x7, 1 - y7])/4 + CiTi[1 - z2, 1 + x7, y7]/4 - 
+ CiTi[1 - z2, 1 + x7, 1 + \[Nu]]/2 + CiTi[1 - z2, 1 - y7, x7]/4 - 
+ (3*CiTi[1 - z2, 1 - y7, 1 + x7])/4 + CiTi[1 - z2, 1 - y7, 1 - y7]/4 - 
+ CiTi[1 - z2, 1 - y7, y7]/4 - CiTi[1 - z2, 1 - y7, 1 + \[Nu]]/2 + 
+ CiTi[1 - z2, y7, 1 + x7]/4 - CiTi[1 - z2, y7, 1 - y7]/4 + 
+ CiTi[1 - z2, 1 - z2, 1 + x7]/4 + CiTi[1 - z2, 1 - z2, 1 - y7]/4 + 
+ CiTi[1 - z2, 1 - z2, 1 + \[Nu]]/2 + CiTi[1 - z2, z2, f27]/4 + 
+ CiTi[1 - z2, z2, g27]/4 - CiTi[1 - z2, z2, y7 - \[Mu]]/2 - 
+ CiTi[1 - z2, z2, x7 + \[Mu]]/2 + 
+ CiTi[1 - z2, z2, al[(1 + x7 - z2b)/(1 + x7 - z2)]]/4 + 
+ CiTi[1 - z2, z2, al[(1 - y7 - z2b)/(1 - y7 - z2)]]/4 - 
+ CiTi[1 - z2, 1 - z2b, 1 + x7]/4 - CiTi[1 - z2, 1 - z2b, 1 - y7]/4 - 
+ CiTi[1 - z2, 1 - z2b, 1 + \[Nu]]/2 - CiTi[1 - z2, z2b, f27]/4 - 
+ CiTi[1 - z2, z2b, g27]/4 + CiTi[1 - z2, z2b, 1 + x7]/2 + 
+ CiTi[1 - z2, z2b, 1 - y7]/2 - 
+ CiTi[1 - z2, z2b, al[(1 + x7 - z2b)/(1 + x7 - z2)]]/4 - 
+ CiTi[1 - z2, z2b, al[(1 - y7 - z2b)/(1 - y7 - z2)]]/4 - 
+ CiTi[1 - z2, y7 - \[Mu], 1 + x7]/4 + (3*CiTi[1 - z2, y7 - \[Mu], 1 - y7])/
+  4 + CiTi[1 - z2, y7 - \[Mu], 1 + \[Nu]]/2 - CiTi[1 - z2, \[Mu], 1 + x7]/2 - 
+ CiTi[1 - z2, \[Mu], 1 - y7]/2 + CiTi[1 - z2, \[Mu], y7 - \[Mu]]/2 + 
+ CiTi[1 - z2, \[Mu], x7 + \[Mu]]/2 - CiTi[1 - z2, \[Mu], \[Nu]]/2 + 
+ (3*CiTi[1 - z2, x7 + \[Mu], 1 + x7])/4 - CiTi[1 - z2, x7 + \[Mu], 1 - y7]/
+  4 + CiTi[1 - z2, x7 + \[Mu], 1 + \[Nu]]/2 + CiTi[1 - z2, \[Nu], 1 + x7]/2 + 
+ CiTi[1 - z2, \[Nu], 1 - y7]/2 - CiTi[1 - z2, \[Nu], y7 - \[Mu]]/2 - 
+ CiTi[1 - z2, \[Nu], x7 + \[Mu]]/2 + CiTi[1 - z2, \[Nu], \[Nu]]/2 - 
+ CiTi[1 - z2, 1 + \[Nu], \[Nu]]/2 - 
+ CiTi[1 - z2, al[(1 + x7 - z2b)/(1 + x7 - z2)], 1 + x7]/4 + 
+ CiTi[1 - z2, al[(1 + x7 - z2b)/(1 + x7 - z2)], 1 - y7]/4 + 
+ CiTi[1 - z2, al[(1 - y7 - z2b)/(1 - y7 - z2)], 1 + x7]/4 - 
+ CiTi[1 - z2, al[(1 - y7 - z2b)/(1 - y7 - z2)], 1 - y7]/4 - 
+ CiTi[1 - z2, al[(\[Mu] - z2b*\[Nu])/(\[Mu] - z2*\[Nu])], 1 + x7]/4 - 
+ CiTi[1 - z2, al[(\[Mu] - z2b*\[Nu])/(\[Mu] - z2*\[Nu])], 1 - y7]/4 - 
+ CiTi[1 - z2, al[(\[Mu] - z2b*\[Nu])/(\[Mu] - z2*\[Nu])], 1 + \[Nu]]/2 + 
+ CiTi[z2, f27, x7]/4 - CiTi[z2, f27, y7]/4 - CiTi[z2, g27, x7]/4 + 
+ CiTi[z2, g27, y7]/4 + CiTi[z2, 1 + x7, x7]/4 + CiTi[z2, 1 + x7, y7]/4 - 
+ CiTi[z2, 1 + x7, \[Nu]]/2 + CiTi[z2, 1 + x7, 1 + \[Nu]]/2 + 
+ CiTi[z2, 1 - y7, x7]/4 + CiTi[z2, 1 - y7, y7]/4 - 
+ CiTi[z2, 1 - y7, \[Nu]]/2 + CiTi[z2, 1 - y7, 1 + \[Nu]]/2 - 
+ CiTi[z2, 1 - z2, f27]/4 - CiTi[z2, 1 - z2, g27]/4 + CiTi[z2, 1 - z2, x7]/4 - 
+ CiTi[z2, 1 - z2, 1 + x7]/2 - CiTi[z2, 1 - z2, 1 - y7]/2 + 
+ CiTi[z2, 1 - z2, y7]/4 + CiTi[z2, 1 - z2, y7 - \[Mu]]/2 + 
+ CiTi[z2, 1 - z2, x7 + \[Mu]]/2 - CiTi[z2, 1 - z2, \[Nu]]/2 - 
+ CiTi[z2, 1 - z2, 1 + \[Nu]]/2 - 
+ CiTi[z2, 1 - z2, al[(1 + x7 - z2b)/(1 + x7 - z2)]]/4 - 
+ CiTi[z2, 1 - z2, al[(1 - y7 - z2b)/(1 - y7 - z2)]]/4 + 
+ CiTi[z2, 1 - z2b, f27]/4 + CiTi[z2, 1 - z2b, g27]/4 - 
+ CiTi[z2, 1 - z2b, x7]/4 - CiTi[z2, 1 - z2b, y7]/4 - 
+ CiTi[z2, 1 - z2b, \[Nu]]/2 + CiTi[z2, 1 - z2b, 1 + \[Nu]]/2 + 
+ CiTi[z2, 1 - z2b, al[(1 + x7 - z2b)/(1 + x7 - z2)]]/4 + 
+ CiTi[z2, 1 - z2b, al[(1 - y7 - z2b)/(1 - y7 - z2)]]/4 + 
+ CiTi[z2, y7 - \[Mu], x7]/4 - (3*CiTi[z2, y7 - \[Mu], y7])/4 + 
+ CiTi[z2, y7 - \[Mu], \[Nu]]/2 - CiTi[z2, y7 - \[Mu], 1 + \[Nu]]/2 + 
+ CiTi[z2, \[Mu], x7]/2 + CiTi[z2, \[Mu], y7]/2 - 
+ CiTi[z2, \[Mu], y7 - \[Mu]]/2 - CiTi[z2, \[Mu], x7 + \[Mu]]/2 - 
+ (3*CiTi[z2, x7 + \[Mu], x7])/4 + CiTi[z2, x7 + \[Mu], y7]/4 + 
+ CiTi[z2, x7 + \[Mu], \[Nu]]/2 - CiTi[z2, x7 + \[Mu], 1 + \[Nu]]/2 + 
+ CiTi[z2, al[(1 + x7 - z2b)/(1 + x7 - z2)], x7]/4 - 
+ CiTi[z2, al[(1 + x7 - z2b)/(1 + x7 - z2)], y7]/4 - 
+ CiTi[z2, al[(1 - y7 - z2b)/(1 - y7 - z2)], x7]/4 + 
+ CiTi[z2, al[(1 - y7 - z2b)/(1 - y7 - z2)], y7]/4 + 
+ CiTi[z2, al[(\[Mu] - z2b*\[Nu])/(\[Mu] - z2*\[Nu])], x7]/4 + 
+ CiTi[z2, al[(\[Mu] - z2b*\[Nu])/(\[Mu] - z2*\[Nu])], y7]/4 - 
+ CiTi[z2, al[(\[Mu] - z2b*\[Nu])/(\[Mu] - z2*\[Nu])], \[Nu]]/2 + 
+ CiTi[z2, al[(\[Mu] - z2b*\[Nu])/(\[Mu] - z2*\[Nu])], 1 + \[Nu]]/2 - 
+ CiTi[1 - z2b, f27, 1 + x7]/4 + CiTi[1 - z2b, f27, 1 - y7]/4 + 
+ CiTi[1 - z2b, g27, 1 + x7]/4 - CiTi[1 - z2b, g27, 1 - y7]/4 + 
+ CiTi[1 - z2b, x7, 1 + x7]/4 - CiTi[1 - z2b, x7, 1 - y7]/4 + 
+ CiTi[1 - z2b, 1 + x7, x7]/4 + CiTi[1 - z2b, 1 + x7, 1 + x7]/4 + 
+ CiTi[1 - z2b, 1 + x7, 1 - y7]/4 - CiTi[1 - z2b, 1 + x7, y7]/4 + 
+ CiTi[1 - z2b, 1 + x7, 1 + \[Nu]]/2 - CiTi[1 - z2b, 1 - y7, x7]/4 + 
+ CiTi[1 - z2b, 1 - y7, 1 + x7]/4 + CiTi[1 - z2b, 1 - y7, 1 - y7]/4 + 
+ CiTi[1 - z2b, 1 - y7, y7]/4 + CiTi[1 - z2b, 1 - y7, 1 + \[Nu]]/2 - 
+ CiTi[1 - z2b, y7, 1 + x7]/4 + CiTi[1 - z2b, y7, 1 - y7]/4 + 
+ CiTi[1 - z2b, 1 - z2, 1 + x7]/4 + CiTi[1 - z2b, 1 - z2, 1 - y7]/4 + 
+ CiTi[1 - z2b, 1 - z2, 1 + \[Nu]]/2 + CiTi[1 - z2b, z2, f27]/4 + 
+ CiTi[1 - z2b, z2, g27]/4 - CiTi[1 - z2b, z2, y7 - \[Mu]]/2 - 
+ CiTi[1 - z2b, z2, x7 + \[Mu]]/2 + 
+ CiTi[1 - z2b, z2, al[(1 + x7 - z2b)/(1 + x7 - z2)]]/4 + 
+ CiTi[1 - z2b, z2, al[(1 - y7 - z2b)/(1 - y7 - z2)]]/4 - 
+ CiTi[1 - z2b, 1 - z2b, 1 + x7]/4 - CiTi[1 - z2b, 1 - z2b, 1 - y7]/4 - 
+ CiTi[1 - z2b, 1 - z2b, 1 + \[Nu]]/2 - CiTi[1 - z2b, z2b, f27]/4 - 
+ CiTi[1 - z2b, z2b, g27]/4 + CiTi[1 - z2b, z2b, 1 + x7]/2 + 
+ CiTi[1 - z2b, z2b, 1 - y7]/2 - 
+ CiTi[1 - z2b, z2b, al[(1 + x7 - z2b)/(1 + x7 - z2)]]/4 - 
+ CiTi[1 - z2b, z2b, al[(1 - y7 - z2b)/(1 - y7 - z2)]]/4 - 
+ CiTi[1 - z2b, y7 - \[Mu], 1 + x7]/4 - CiTi[1 - z2b, y7 - \[Mu], 1 - y7]/4 - 
+ CiTi[1 - z2b, y7 - \[Mu], 1 + \[Nu]]/2 - CiTi[1 - z2b, \[Mu], 1 + x7]/2 - 
+ CiTi[1 - z2b, \[Mu], 1 - y7]/2 + CiTi[1 - z2b, \[Mu], y7 - \[Mu]]/2 + 
+ CiTi[1 - z2b, \[Mu], x7 + \[Mu]]/2 - CiTi[1 - z2b, \[Mu], \[Nu]]/2 - 
+ CiTi[1 - z2b, x7 + \[Mu], 1 + x7]/4 - CiTi[1 - z2b, x7 + \[Mu], 1 - y7]/4 - 
+ CiTi[1 - z2b, x7 + \[Mu], 1 + \[Nu]]/2 + CiTi[1 - z2b, \[Nu], 1 + x7]/2 + 
+ CiTi[1 - z2b, \[Nu], 1 - y7]/2 - CiTi[1 - z2b, \[Nu], y7 - \[Mu]]/2 - 
+ CiTi[1 - z2b, \[Nu], x7 + \[Mu]]/2 + CiTi[1 - z2b, \[Nu], \[Nu]]/2 + 
+ CiTi[1 - z2b, 1 + \[Nu], \[Nu]]/2 - 
+ CiTi[1 - z2b, al[(1 + x7 - z2b)/(1 + x7 - z2)], 1 + x7]/4 + 
+ CiTi[1 - z2b, al[(1 + x7 - z2b)/(1 + x7 - z2)], 1 - y7]/4 + 
+ CiTi[1 - z2b, al[(1 - y7 - z2b)/(1 - y7 - z2)], 1 + x7]/4 - 
+ CiTi[1 - z2b, al[(1 - y7 - z2b)/(1 - y7 - z2)], 1 - y7]/4 - 
+ CiTi[1 - z2b, al[(\[Mu] - z2b*\[Nu])/(\[Mu] - z2*\[Nu])], 1 + x7]/4 - 
+ CiTi[1 - z2b, al[(\[Mu] - z2b*\[Nu])/(\[Mu] - z2*\[Nu])], 1 - y7]/4 - 
+ CiTi[1 - z2b, al[(\[Mu] - z2b*\[Nu])/(\[Mu] - z2*\[Nu])], 1 + \[Nu]]/2 + 
+ CiTi[z2b, f27, x7]/4 - CiTi[z2b, f27, y7]/4 - CiTi[z2b, g27, x7]/4 + 
+ CiTi[z2b, g27, y7]/4 - (3*CiTi[z2b, 1 + x7, x7])/4 + 
+ CiTi[z2b, 1 + x7, y7]/4 + CiTi[z2b, 1 + x7, \[Nu]]/2 - 
+ CiTi[z2b, 1 + x7, 1 + \[Nu]]/2 + CiTi[z2b, 1 - y7, x7]/4 - 
+ (3*CiTi[z2b, 1 - y7, y7])/4 + CiTi[z2b, 1 - y7, \[Nu]]/2 - 
+ CiTi[z2b, 1 - y7, 1 + \[Nu]]/2 - CiTi[z2b, 1 - z2, f27]/4 - 
+ CiTi[z2b, 1 - z2, g27]/4 + CiTi[z2b, 1 - z2, x7]/4 - 
+ CiTi[z2b, 1 - z2, 1 + x7]/2 - CiTi[z2b, 1 - z2, 1 - y7]/2 + 
+ CiTi[z2b, 1 - z2, y7]/4 + CiTi[z2b, 1 - z2, y7 - \[Mu]]/2 + 
+ CiTi[z2b, 1 - z2, x7 + \[Mu]]/2 - CiTi[z2b, 1 - z2, \[Nu]]/2 - 
+ CiTi[z2b, 1 - z2, 1 + \[Nu]]/2 - 
+ CiTi[z2b, 1 - z2, al[(1 + x7 - z2b)/(1 + x7 - z2)]]/4 - 
+ CiTi[z2b, 1 - z2, al[(1 - y7 - z2b)/(1 - y7 - z2)]]/4 + 
+ CiTi[z2b, 1 - z2b, f27]/4 + CiTi[z2b, 1 - z2b, g27]/4 - 
+ CiTi[z2b, 1 - z2b, x7]/4 - CiTi[z2b, 1 - z2b, y7]/4 - 
+ CiTi[z2b, 1 - z2b, \[Nu]]/2 + CiTi[z2b, 1 - z2b, 1 + \[Nu]]/2 + 
+ CiTi[z2b, 1 - z2b, al[(1 + x7 - z2b)/(1 + x7 - z2)]]/4 + 
+ CiTi[z2b, 1 - z2b, al[(1 - y7 - z2b)/(1 - y7 - z2)]]/4 + 
+ CiTi[z2b, y7 - \[Mu], x7]/4 + CiTi[z2b, y7 - \[Mu], y7]/4 - 
+ CiTi[z2b, y7 - \[Mu], \[Nu]]/2 + CiTi[z2b, y7 - \[Mu], 1 + \[Nu]]/2 - 
+ CiTi[z2b, \[Mu], x7]/2 + CiTi[z2b, \[Mu], 1 + x7] + 
+ CiTi[z2b, \[Mu], 1 - y7] - CiTi[z2b, \[Mu], y7]/2 - 
+ CiTi[z2b, \[Mu], y7 - \[Mu]]/2 - CiTi[z2b, \[Mu], x7 + \[Mu]]/2 + 
+ CiTi[z2b, \[Mu], \[Nu]] + CiTi[z2b, x7 + \[Mu], x7]/4 + 
+ CiTi[z2b, x7 + \[Mu], y7]/4 - CiTi[z2b, x7 + \[Mu], \[Nu]]/2 + 
+ CiTi[z2b, x7 + \[Mu], 1 + \[Nu]]/2 + 
+ CiTi[z2b, al[(1 + x7 - z2b)/(1 + x7 - z2)], x7]/4 - 
+ CiTi[z2b, al[(1 + x7 - z2b)/(1 + x7 - z2)], y7]/4 - 
+ CiTi[z2b, al[(1 - y7 - z2b)/(1 - y7 - z2)], x7]/4 + 
+ CiTi[z2b, al[(1 - y7 - z2b)/(1 - y7 - z2)], y7]/4 + 
+ CiTi[z2b, al[(\[Mu] - z2b*\[Nu])/(\[Mu] - z2*\[Nu])], x7]/4 + 
+ CiTi[z2b, al[(\[Mu] - z2b*\[Nu])/(\[Mu] - z2*\[Nu])], y7]/4 - 
+ CiTi[z2b, al[(\[Mu] - z2b*\[Nu])/(\[Mu] - z2*\[Nu])], \[Nu]]/2 + 
+ CiTi[z2b, al[(\[Mu] - z2b*\[Nu])/(\[Mu] - z2*\[Nu])], 1 + \[Nu]]/2 + 
+ CiTi[1 - zn, x7, 1 + x7]/4 - CiTi[1 - zn, x7, 1 - y7]/4 + 
+ CiTi[1 - zn, 1 + x7, x7]/2 - CiTi[1 - zn, 1 + x7, \[Nu]]/2 + 
+ CiTi[1 - zn, 1 + x7, 1 + \[Nu]]/2 + CiTi[1 - zn, 1 - y7, y7]/2 - 
+ CiTi[1 - zn, 1 - y7, \[Nu]]/2 + CiTi[1 - zn, 1 - y7, 1 + \[Nu]]/2 - 
+ CiTi[1 - zn, y7, 1 + x7]/4 + CiTi[1 - zn, y7, 1 - y7]/4 - 
+ CiTi[1 - zn, 1 - zn, x7]/4 - CiTi[1 - zn, 1 - zn, y7]/4 + 
+ CiTi[1 - zn, 1 - zn, \[Nu]]/2 - CiTi[1 - zn, 1 - zn, 1 + \[Nu]]/2 + 
+ CiTi[1 - zn, y7 - zn, x7]/2 - CiTi[1 - zn, y7 - zn, y7]/2 + 
+ CiTi[1 - zn, zn, x7]/2 + CiTi[1 - zn, zn, y7]/2 - 
+ CiTi[1 - zn, zn, y7 - zn]/2 - CiTi[1 - zn, zn, x7 + zn]/2 - 
+ CiTi[1 - zn, x7 + zn, x7]/2 + CiTi[1 - zn, x7 + zn, y7]/2 + 
+ CiTi[1 - zn, 1 - znb, x7]/4 + CiTi[1 - zn, 1 - znb, y7]/4 - 
+ CiTi[1 - zn, 1 - znb, \[Nu]]/2 + CiTi[1 - zn, 1 - znb, 1 + \[Nu]]/2 - 
+ CiTi[1 - zn, znb, x7]/2 + CiTi[1 - zn, znb, 1 + x7]/2 + 
+ CiTi[1 - zn, znb, 1 - y7]/2 - CiTi[1 - zn, znb, y7]/2 + 
+ CiTi[1 - zn, znb, y7 - zn]/2 + CiTi[1 - zn, znb, x7 + zn]/2 - 
+ CiTi[1 - zn, znb, y7 - \[Mu]]/2 - CiTi[1 - zn, znb, x7 + \[Mu]]/2 + 
+ CiTi[1 - zn, znb, \[Nu]] - CiTi[1 - zn, y7 - \[Mu], x7]/4 - 
+ CiTi[1 - zn, y7 - \[Mu], y7]/4 + CiTi[1 - zn, y7 - \[Mu], \[Nu]]/2 - 
+ CiTi[1 - zn, y7 - \[Mu], 1 + \[Nu]]/2 - CiTi[1 - zn, \[Mu], 1 + x7]/2 - 
+ CiTi[1 - zn, \[Mu], 1 - y7]/2 + CiTi[1 - zn, \[Mu], y7 - \[Mu]]/2 + 
+ CiTi[1 - zn, \[Mu], x7 + \[Mu]]/2 - CiTi[1 - zn, \[Mu], \[Nu]]/2 - 
+ CiTi[1 - zn, x7 + \[Mu], x7]/4 - CiTi[1 - zn, x7 + \[Mu], y7]/4 + 
+ CiTi[1 - zn, x7 + \[Mu], \[Nu]]/2 - CiTi[1 - zn, x7 + \[Mu], 1 + \[Nu]]/2 + 
+ CiTi[1 - zn, \[Nu], x7]/2 + CiTi[1 - zn, \[Nu], y7]/2 - 
+ CiTi[1 - zn, \[Nu], \[Nu]]/2 + CiTi[1 - zn, \[Nu], 1 + \[Nu]] - 
+ CiTi[1 - zn, 1 + \[Nu], \[Nu]]/2 - 
+ CiTi[1 - zn, al[(zn - \[Mu])/(znb - \[Mu])], x7]/4 - 
+ CiTi[1 - zn, al[(zn - \[Mu])/(znb - \[Mu])], y7]/4 + 
+ CiTi[1 - zn, al[(zn - \[Mu])/(znb - \[Mu])], \[Nu]]/2 - 
+ CiTi[1 - zn, al[(zn - \[Mu])/(znb - \[Mu])], 1 + \[Nu]]/2 - 
+ CiTi[y7 - zn, x7, 1 + x7]/2 + CiTi[y7 - zn, x7, 1 - y7]/2 + 
+ CiTi[y7 - zn, 1 + x7, x7]/2 - CiTi[y7 - zn, 1 + x7, y7]/2 + 
+ CiTi[y7 - zn, 1 - y7, x7]/2 - CiTi[y7 - zn, 1 - y7, y7]/2 - 
+ CiTi[y7 - zn, y7, 1 + x7]/2 + CiTi[y7 - zn, y7, 1 - y7]/2 - 
+ CiTi[zn, x7, 1 + x7]/2 + CiTi[zn, x7, 1 - y7]/2 - 
+ CiTi[zn, 1 + x7, 1 + x7]/4 - CiTi[zn, 1 + x7, 1 - y7]/4 - 
+ CiTi[zn, 1 + x7, 1 + \[Nu]]/2 - CiTi[zn, 1 - y7, 1 + x7]/4 - 
+ CiTi[zn, 1 - y7, 1 - y7]/4 - CiTi[zn, 1 - y7, 1 + \[Nu]]/2 + 
+ CiTi[zn, y7, 1 + x7]/2 - CiTi[zn, y7, 1 - y7]/2 - 
+ CiTi[zn, 1 - zn, 1 + x7]/4 - CiTi[zn, 1 - zn, 1 - y7]/4 + 
+ CiTi[zn, 1 - zn, y7 - zn]/2 + CiTi[zn, 1 - zn, x7 + zn]/2 + 
+ CiTi[zn, 1 - zn, 1 + \[Nu]]/2 - CiTi[zn, y7 - zn, 1 + x7]/2 + 
+ CiTi[zn, y7 - zn, 1 - y7]/2 + CiTi[zn, x7 + zn, 1 + x7]/2 - 
+ CiTi[zn, x7 + zn, 1 - y7]/2 - CiTi[zn, 1 - znb, 1 + x7]/4 - 
+ CiTi[zn, 1 - znb, 1 - y7]/4 - CiTi[zn, 1 - znb, y7 - zn]/2 - 
+ CiTi[zn, 1 - znb, x7 + zn]/2 + CiTi[zn, 1 - znb, y7 - \[Mu]]/2 + 
+ CiTi[zn, 1 - znb, x7 + \[Mu]]/2 - CiTi[zn, 1 - znb, 1 + \[Nu]]/2 + 
+ CiTi[zn, y7 - \[Mu], 1 + x7]/4 + CiTi[zn, y7 - \[Mu], 1 - y7]/4 + 
+ CiTi[zn, y7 - \[Mu], 1 + \[Nu]]/2 + CiTi[zn, \[Mu], x7]/2 + 
+ CiTi[zn, \[Mu], y7]/2 - CiTi[zn, \[Mu], y7 - \[Mu]]/2 - 
+ CiTi[zn, \[Mu], x7 + \[Mu]]/2 + CiTi[zn, x7 + \[Mu], 1 + x7]/4 + 
+ CiTi[zn, x7 + \[Mu], 1 - y7]/4 + CiTi[zn, x7 + \[Mu], 1 + \[Nu]]/2 - 
+ CiTi[zn, \[Nu], x7]/2 - CiTi[zn, \[Nu], 1 + x7]/2 - 
+ CiTi[zn, \[Nu], 1 - y7]/2 - CiTi[zn, \[Nu], y7]/2 + 
+ CiTi[zn, \[Nu], y7 - \[Mu]]/2 + CiTi[zn, \[Nu], x7 + \[Mu]]/2 - 
+ CiTi[zn, \[Nu], 1 + \[Nu]] + CiTi[zn, al[(zn - \[Mu])/(znb - \[Mu])], 
+   1 + x7]/4 + CiTi[zn, al[(zn - \[Mu])/(znb - \[Mu])], 1 - y7]/4 + 
+ CiTi[zn, al[(zn - \[Mu])/(znb - \[Mu])], 1 + \[Nu]]/2 + 
+ CiTi[x7 + zn, x7, 1 + x7]/2 - CiTi[x7 + zn, x7, 1 - y7]/2 - 
+ CiTi[x7 + zn, 1 + x7, x7]/2 + CiTi[x7 + zn, 1 + x7, y7]/2 - 
+ CiTi[x7 + zn, 1 - y7, x7]/2 + CiTi[x7 + zn, 1 - y7, y7]/2 + 
+ CiTi[x7 + zn, y7, 1 + x7]/2 - CiTi[x7 + zn, y7, 1 - y7]/2 - 
+ CiTi[1 - znb, x7, 1 + x7]/4 + CiTi[1 - znb, x7, 1 - y7]/4 - 
+ CiTi[1 - znb, 1 + x7, y7]/2 + CiTi[1 - znb, 1 + x7, \[Nu]]/2 - 
+ CiTi[1 - znb, 1 + x7, 1 + \[Nu]]/2 - CiTi[1 - znb, 1 - y7, x7]/2 + 
+ CiTi[1 - znb, 1 - y7, \[Nu]]/2 - CiTi[1 - znb, 1 - y7, 1 + \[Nu]]/2 + 
+ CiTi[1 - znb, y7, 1 + x7]/4 - CiTi[1 - znb, y7, 1 - y7]/4 - 
+ CiTi[1 - znb, 1 - zn, x7]/4 - CiTi[1 - znb, 1 - zn, y7]/4 + 
+ CiTi[1 - znb, 1 - zn, \[Nu]]/2 - CiTi[1 - znb, 1 - zn, 1 + \[Nu]]/2 + 
+ CiTi[1 - znb, y7 - zn, x7]/2 - CiTi[1 - znb, y7 - zn, y7]/2 + 
+ CiTi[1 - znb, zn, x7]/2 + CiTi[1 - znb, zn, y7]/2 - 
+ CiTi[1 - znb, zn, y7 - zn]/2 - CiTi[1 - znb, zn, x7 + zn]/2 - 
+ CiTi[1 - znb, x7 + zn, x7]/2 + CiTi[1 - znb, x7 + zn, y7]/2 + 
+ CiTi[1 - znb, 1 - znb, x7]/4 + CiTi[1 - znb, 1 - znb, y7]/4 - 
+ CiTi[1 - znb, 1 - znb, \[Nu]]/2 + CiTi[1 - znb, 1 - znb, 1 + \[Nu]]/2 - 
+ CiTi[1 - znb, znb, x7]/2 + CiTi[1 - znb, znb, 1 + x7]/2 + 
+ CiTi[1 - znb, znb, 1 - y7]/2 - CiTi[1 - znb, znb, y7]/2 + 
+ CiTi[1 - znb, znb, y7 - zn]/2 + CiTi[1 - znb, znb, x7 + zn]/2 - 
+ CiTi[1 - znb, znb, y7 - \[Mu]]/2 - CiTi[1 - znb, znb, x7 + \[Mu]]/2 + 
+ CiTi[1 - znb, znb, \[Nu]] - CiTi[1 - znb, y7 - \[Mu], x7]/4 + 
+ (3*CiTi[1 - znb, y7 - \[Mu], y7])/4 - CiTi[1 - znb, y7 - \[Mu], \[Nu]]/2 + 
+ CiTi[1 - znb, y7 - \[Mu], 1 + \[Nu]]/2 - CiTi[1 - znb, \[Mu], 1 + x7]/2 - 
+ CiTi[1 - znb, \[Mu], 1 - y7]/2 + CiTi[1 - znb, \[Mu], y7 - \[Mu]]/2 + 
+ CiTi[1 - znb, \[Mu], x7 + \[Mu]]/2 - CiTi[1 - znb, \[Mu], \[Nu]]/2 + 
+ (3*CiTi[1 - znb, x7 + \[Mu], x7])/4 - CiTi[1 - znb, x7 + \[Mu], y7]/4 - 
+ CiTi[1 - znb, x7 + \[Mu], \[Nu]]/2 + CiTi[1 - znb, x7 + \[Mu], 1 + \[Nu]]/
+  2 - CiTi[1 - znb, \[Nu], x7]/2 - CiTi[1 - znb, \[Nu], y7]/2 + 
+ CiTi[1 - znb, \[Nu], \[Nu]]/2 - CiTi[1 - znb, \[Nu], 1 + \[Nu]] + 
+ CiTi[1 - znb, 1 + \[Nu], \[Nu]]/2 - 
+ CiTi[1 - znb, al[(zn - \[Mu])/(znb - \[Mu])], x7]/4 - 
+ CiTi[1 - znb, al[(zn - \[Mu])/(znb - \[Mu])], y7]/4 + 
+ CiTi[1 - znb, al[(zn - \[Mu])/(znb - \[Mu])], \[Nu]]/2 - 
+ CiTi[1 - znb, al[(zn - \[Mu])/(znb - \[Mu])], 1 + \[Nu]]/2 + 
+ CiTi[znb, x7, 1 + x7]/2 - CiTi[znb, x7, 1 - y7]/2 - 
+ CiTi[znb, 1 + x7, 1 + x7]/4 + (3*CiTi[znb, 1 + x7, 1 - y7])/4 + 
+ CiTi[znb, 1 + x7, 1 + \[Nu]]/2 + (3*CiTi[znb, 1 - y7, 1 + x7])/4 - 
+ CiTi[znb, 1 - y7, 1 - y7]/4 + CiTi[znb, 1 - y7, 1 + \[Nu]]/2 - 
+ CiTi[znb, y7, 1 + x7]/2 + CiTi[znb, y7, 1 - y7]/2 - 
+ CiTi[znb, 1 - zn, 1 + x7]/4 - CiTi[znb, 1 - zn, 1 - y7]/4 + 
+ CiTi[znb, 1 - zn, y7 - zn]/2 + CiTi[znb, 1 - zn, x7 + zn]/2 + 
+ CiTi[znb, 1 - zn, 1 + \[Nu]]/2 - CiTi[znb, y7 - zn, 1 + x7]/2 + 
+ CiTi[znb, y7 - zn, 1 - y7]/2 + CiTi[znb, x7 + zn, 1 + x7]/2 - 
+ CiTi[znb, x7 + zn, 1 - y7]/2 - CiTi[znb, 1 - znb, 1 + x7]/4 - 
+ CiTi[znb, 1 - znb, 1 - y7]/4 - CiTi[znb, 1 - znb, y7 - zn]/2 - 
+ CiTi[znb, 1 - znb, x7 + zn]/2 + CiTi[znb, 1 - znb, y7 - \[Mu]]/2 + 
+ CiTi[znb, 1 - znb, x7 + \[Mu]]/2 - CiTi[znb, 1 - znb, 1 + \[Nu]]/2 + 
+ CiTi[znb, y7 - \[Mu], 1 + x7]/4 - (3*CiTi[znb, y7 - \[Mu], 1 - y7])/4 - 
+ CiTi[znb, y7 - \[Mu], 1 + \[Nu]]/2 - CiTi[znb, \[Mu], x7]/2 + 
+ CiTi[znb, \[Mu], 1 + x7] + CiTi[znb, \[Mu], 1 - y7] - 
+ CiTi[znb, \[Mu], y7]/2 - CiTi[znb, \[Mu], y7 - \[Mu]]/2 - 
+ CiTi[znb, \[Mu], x7 + \[Mu]]/2 + CiTi[znb, \[Mu], \[Nu]] - 
+ (3*CiTi[znb, x7 + \[Mu], 1 + x7])/4 + CiTi[znb, x7 + \[Mu], 1 - y7]/4 - 
+ CiTi[znb, x7 + \[Mu], 1 + \[Nu]]/2 + CiTi[znb, \[Nu], x7]/2 - 
+ CiTi[znb, \[Nu], 1 + x7]/2 - CiTi[znb, \[Nu], 1 - y7]/2 + 
+ CiTi[znb, \[Nu], y7]/2 + CiTi[znb, \[Nu], y7 - \[Mu]]/2 + 
+ CiTi[znb, \[Nu], x7 + \[Mu]]/2 - CiTi[znb, \[Nu], \[Nu]] + 
+ CiTi[znb, \[Nu], 1 + \[Nu]] + CiTi[znb, al[(zn - \[Mu])/(znb - \[Mu])], 
+   1 + x7]/4 + CiTi[znb, al[(zn - \[Mu])/(znb - \[Mu])], 1 - y7]/4 + 
+ CiTi[znb, al[(zn - \[Mu])/(znb - \[Mu])], 1 + \[Nu]]/2 - 
+ CiTi[al[(1 + x7 - z2b)/(1 + x7 - z2)], x7, 1 + x7]/4 + 
+ CiTi[al[(1 + x7 - z2b)/(1 + x7 - z2)], x7, 1 - y7]/4 + 
+ CiTi[al[(1 + x7 - z2b)/(1 + x7 - z2)], 1 + x7, x7]/4 - 
+ CiTi[al[(1 + x7 - z2b)/(1 + x7 - z2)], 1 + x7, y7]/4 + 
+ CiTi[al[(1 + x7 - z2b)/(1 + x7 - z2)], 1 - y7, x7]/4 - 
+ CiTi[al[(1 + x7 - z2b)/(1 + x7 - z2)], 1 - y7, y7]/4 - 
+ CiTi[al[(1 + x7 - z2b)/(1 + x7 - z2)], y7, 1 + x7]/4 + 
+ CiTi[al[(1 + x7 - z2b)/(1 + x7 - z2)], y7, 1 - y7]/4 + 
+ CiTi[al[(1 - y7 - z2b)/(1 - y7 - z2)], x7, 1 + x7]/4 - 
+ CiTi[al[(1 - y7 - z2b)/(1 - y7 - z2)], x7, 1 - y7]/4 - 
+ CiTi[al[(1 - y7 - z2b)/(1 - y7 - z2)], 1 + x7, x7]/4 + 
+ CiTi[al[(1 - y7 - z2b)/(1 - y7 - z2)], 1 + x7, y7]/4 - 
+ CiTi[al[(1 - y7 - z2b)/(1 - y7 - z2)], 1 - y7, x7]/4 + 
+ CiTi[al[(1 - y7 - z2b)/(1 - y7 - z2)], 1 - y7, y7]/4 + 
+ CiTi[al[(1 - y7 - z2b)/(1 - y7 - z2)], y7, 1 + x7]/4 - 
+ CiTi[al[(1 - y7 - z2b)/(1 - y7 - z2)], y7, 1 - y7]/4 + 
+ CiTi[al[(zn - \[Mu])/(znb - \[Mu])], x7, 1 + x7]/4 - 
+ CiTi[al[(zn - \[Mu])/(znb - \[Mu])], x7, 1 - y7]/4 - 
+ CiTi[al[(zn - \[Mu])/(znb - \[Mu])], 1 + x7, x7]/4 + 
+ CiTi[al[(zn - \[Mu])/(znb - \[Mu])], 1 + x7, y7]/4 + 
+ CiTi[al[(zn - \[Mu])/(znb - \[Mu])], 1 - y7, x7]/4 - 
+ CiTi[al[(zn - \[Mu])/(znb - \[Mu])], 1 - y7, y7]/4 - 
+ CiTi[al[(zn - \[Mu])/(znb - \[Mu])], y7, 1 + x7]/4 + 
+ CiTi[al[(zn - \[Mu])/(znb - \[Mu])], y7, 1 - y7]/4 - 
+ CiTi[al[(zn - \[Mu])/(znb - \[Mu])], \[Mu], x7]/2 + 
+ CiTi[al[(zn - \[Mu])/(znb - \[Mu])], \[Mu], 1 + x7]/2 + 
+ CiTi[al[(zn - \[Mu])/(znb - \[Mu])], \[Mu], 1 - y7]/2 - 
+ CiTi[al[(zn - \[Mu])/(znb - \[Mu])], \[Mu], y7]/2 + 
+ CiTi[al[(zn - \[Mu])/(znb - \[Mu])], \[Mu], \[Nu]]/2 + 
+ CiTi[al[(zn - \[Mu])/(znb - \[Mu])], \[Nu], x7]/2 + 
+ CiTi[al[(zn - \[Mu])/(znb - \[Mu])], \[Nu], y7]/2 - 
+ CiTi[al[(zn - \[Mu])/(znb - \[Mu])], \[Nu], \[Nu]]/2 + 
+ CiTi[al[(zn - \[Mu])/(znb - \[Mu])], \[Nu], 1 + \[Nu]] - 
+ CiTi[al[(zn - \[Mu])/(znb - \[Mu])], 1 + \[Nu], \[Nu]]/2 - 
+ CiTi[al[(\[Mu] - z2b*\[Nu])/(\[Mu] - z2*\[Nu])], x7, 1 + x7]/4 + 
+ CiTi[al[(\[Mu] - z2b*\[Nu])/(\[Mu] - z2*\[Nu])], x7, 1 - y7]/4 + 
+ CiTi[al[(\[Mu] - z2b*\[Nu])/(\[Mu] - z2*\[Nu])], 1 + x7, x7]/4 - 
+ CiTi[al[(\[Mu] - z2b*\[Nu])/(\[Mu] - z2*\[Nu])], 1 + x7, y7]/4 - 
+ CiTi[al[(\[Mu] - z2b*\[Nu])/(\[Mu] - z2*\[Nu])], 1 - y7, x7]/4 + 
+ CiTi[al[(\[Mu] - z2b*\[Nu])/(\[Mu] - z2*\[Nu])], 1 - y7, y7]/4 + 
+ CiTi[al[(\[Mu] - z2b*\[Nu])/(\[Mu] - z2*\[Nu])], y7, 1 + x7]/4 - 
+ CiTi[al[(\[Mu] - z2b*\[Nu])/(\[Mu] - z2*\[Nu])], y7, 1 - y7]/4 + 
+ CiTi[al[(\[Mu] - z2b*\[Nu])/(\[Mu] - z2*\[Nu])], \[Mu], x7]/2 - 
+ CiTi[al[(\[Mu] - z2b*\[Nu])/(\[Mu] - z2*\[Nu])], \[Mu], 1 + x7]/2 - 
+ CiTi[al[(\[Mu] - z2b*\[Nu])/(\[Mu] - z2*\[Nu])], \[Mu], 1 - y7]/2 + 
+ CiTi[al[(\[Mu] - z2b*\[Nu])/(\[Mu] - z2*\[Nu])], \[Mu], y7]/2 - 
+ CiTi[al[(\[Mu] - z2b*\[Nu])/(\[Mu] - z2*\[Nu])], \[Mu], \[Nu]]/2 - 
+ CiTi[al[(\[Mu] - z2b*\[Nu])/(\[Mu] - z2*\[Nu])], \[Nu], x7]/2 - 
+ CiTi[al[(\[Mu] - z2b*\[Nu])/(\[Mu] - z2*\[Nu])], \[Nu], y7]/2 + 
+ CiTi[al[(\[Mu] - z2b*\[Nu])/(\[Mu] - z2*\[Nu])], \[Nu], \[Nu]]/2 - 
+ CiTi[al[(\[Mu] - z2b*\[Nu])/(\[Mu] - z2*\[Nu])], \[Nu], 1 + \[Nu]] + 
+ CiTi[al[(\[Mu] - z2b*\[Nu])/(\[Mu] - z2*\[Nu])], 1 + \[Nu], \[Nu]]/2
