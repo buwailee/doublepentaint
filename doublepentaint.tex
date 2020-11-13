@@ -617,4 +617,104 @@ This integral can also be reduced to a basis of $15$ boxes. Result of this reduc
     +d\log \frac{\<4y17\>}{\<4y1\, 10\>}d\log \frac{\<1x4y\>}{\<7(1x)(4y)(10\, 11)\>}.
 \]
 
+\section{four-mass box integral}
+In the 1-d integral of 4-mass box function $F(z(t),\bar z(t))$, where $t$ is the 
+integration variable, 
+\[
+	z=\frac12 (1+u(t)-v(t)+\Delta(t)) \quad \text{and}\quad 
+	\bar z=\frac12 (1+u(t)-v(t)-\Delta(t)) 
+\]
+involve a square root $\Delta(t)=\sqrt{(1-u(t)-v(t))^2-4u(t)v(t)}$. If there exist constants 
+$a$ and $b$ such that
+\[
+	au(t)+bv(t)=1,
+\]
+then $z$ and $\bar z$ are related by a constant M\"obius transformation
+\[
+	\bar z=\Lambda(z)=\frac{bz+(1-b)}{(a+b)z-b},
+\]
+and the inverse $\Lambda^{-1}=\Lambda$. If the measure of the integral $d\omega(z,\bar z)
+=\partial_z \omega dz+\partial_{\bar z}\omega d\bar z$
+is also rational in $z$ and $\bar z$,
+we could use $z$ (or $\bar z$) as our integration variable, then the integrand of the integral
+\[
+	\int d\omega(z,\bar z) F(z,\bar z) = 
+	\int dz \frac{\partial \omega}{\partial z}(z,\Lambda (z))F(z,\Lambda(z))+
+	\int d\bar z\frac{\partial \omega}{\partial \bar z}(\Lambda(\bar z),\bar z)
+	F(\Lambda(\bar z),\bar z)
+\]
+is totally rational.
+
+Define a function 
+\[
+	F(\alpha,\beta)=\operatorname{Li}_2(1-\alpha)+
+	\frac{1}{2}\log(\alpha)\log((1-\alpha)(1-\beta)),
+\]
+then the four-mass box function is 
+\[
+	F=F(z,\bar z)-F(\bar z,z).
+\]
+
+Now the 1-d integral of 4-mass box function can be written as a linear combination 
+of the integral in the form of
+\[ 
+	I(z,x)=\int d\log\left(\frac{z-x}{z-\Lambda(x)}\right) 
+	(F(z,\Lambda(z))-F(\Lambda(z),z))
+\]
+for some $x$. Besides, according to 
+\[
+	d\log(\Lambda(t)-s)=d\log (t-\Lambda^{-1}(s)) - d \log(t-\Lambda^{-1}(\infty)),
+\]
+and $\Lambda^{-1}(t)=\Lambda(t)$ in our case,
+\[
+	d\log\left(\frac{z-x}{z-\Lambda(x)}\right)=-
+	d\log\left(\frac{\bar z-x}{\bar z-\Lambda(x)}\right),
+\]
+the integral can be written as
+\[
+	I(z,x)=\int d\log\left(\frac{z-x}{z- \Lambda(x)}\right) 
+	F(z,\Lambda(z)) +(z\leftrightarrow\bar z).
+\]
+
+The algebraic part of symbol of the integral $I(z,x)$ is
+\[
+	-\frac 14 \left(v\otimes \frac{z}{\bar z}\otimes U_\Lambda(z,x)-
+	u\otimes \frac{1- z}{1-\bar z}\otimes U_\Lambda(z,x)\right),
+\]
+where $U(z,x)$ is a cross-ratio defined by
+\[
+	U_\Lambda(\alpha,\beta):=\frac{(\alpha-\beta)(\Lambda(\alpha)-\Lambda(\beta))}
+	{(\Lambda(\alpha)-\beta)(\alpha-\Lambda(\beta))}.
+\]
+It's easy to see that
+\begin{equation}\label{relation_u}
+	U_\Lambda(\alpha,\beta)=U_\Lambda(\beta,\alpha),\quad 
+	U_\Lambda(\Lambda(\alpha),\beta)=U_\Lambda(\alpha,\beta)^{-1},
+\end{equation}
+and there's no non-trivial multiplicative relations between these $U_\Lambda$'s for a
+given $\Lambda$.
+
+To simplify the symbol of $I(z,x)$ to get the above algebraic part, one can first use
+\[
+	\log(\alpha-\beta)=\frac 12\log\left(N_\Lambda(\alpha,\beta)\right)
+	+\frac 14 \log\frac{U_\Lambda(\alpha,\beta)}{U_\Lambda(\alpha,\infty)} 
+	\quad \text{mod}\quad i\pi\quad \text{for}\quad  (\alpha,\beta)\neq (\Lambda(0),0)
+\]
+to rewrite all letters in to combination of $N_\Lambda$ and $U_\Lambda$, where $N_\Lambda(\alpha,\beta):=(\alpha-\beta)(\Lambda(\alpha)-\beta)$, such that all $N_\Lambda$'s are rational.
+Together with eq.\eqref{relation_u}, relations
+\[
+	\frac{N_\Lambda(\alpha,\Lambda(\beta))}{N_\Lambda(\alpha,\beta)}=
+	U_\Lambda(\infty,\beta),
+	\quad N_\Lambda(\alpha,\Lambda(\infty))=N_\Lambda(0,\Lambda(\infty)),
+	\quad N_\Lambda(\Lambda(\alpha),\beta)=N_\Lambda(\alpha,\beta)
+\]
+for $\alpha,\beta\neq \infty,\Lambda(\infty)$, are all basic multiplicative relations for
+$N$ and $U$ for a given $\Lambda$. Therefore, once using these variables, 
+one can easily get the above algebraic part of the symbol.
+
+some other relations:
+\[
+	U_{\Lambda}(\alpha,\beta)
+	=U_{\Lambda_1\Lambda\Lambda_1^{-1}}(\Lambda_1(\alpha),\Lambda_1(\beta)),...
+\]
 \end{document}
